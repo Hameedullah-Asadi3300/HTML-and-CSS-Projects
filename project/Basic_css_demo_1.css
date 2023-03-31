@@ -5,7 +5,7 @@ body {
 
 h1 {
     color: rgba (8, 141, 165, 1);
-    margin-left:100px; 
+    margin-left:25px; 
     text-shadow:1px .5px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -20,7 +20,7 @@ h1 {
 /*------------------
 SELECT ALL SQUARES IN THE ARRAY
 ------------------*/
-.container .suqares:nth-child(-n+4) {
+.container .squares:nth-child(-n+4) {
     background-image: url("\DEMO\images\picture_1.jpg");
     color: #fff;
     float: left;
@@ -52,23 +52,23 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
     background: #4240ff;
 }
 
-.sauqares:nth-child(2) {
+.squares:nth-child(2) {
     background: #ab3fdd;
 }
 
-.sauqarres:nth-child(3) {
+.squares:nth-child(3) {
     background: #ae163e;
 }
 
-.sauqres:nth-child(4) {
+.squares:nth-child(4) {
     background: #00b200;
 }
 
 /*------------------
 HOVER, TRANSLATE & TRANSFORM EFFECTS
 ------------------*/
-.container .squaraes:nth-child(-n+4) :hover{
-    background-image: url("\DEMO\images\picture_1.jpg");
+.container.squares:nth-child(-n+4) :hover{
+    background-image: url("images/picture_1.jpg");
     transform:scale(.5);
     animation-name:race;
     animation-duration:2.5s;
@@ -77,7 +77,7 @@ HOVER, TRANSLATE & TRANSFORM EFFECTS
 
 }
 
-.squares:nth-child(1) :hover {
+.squares:nth-child(1):hover{
     background: #13b4ff;
 }
 

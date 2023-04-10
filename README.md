@@ -17,7 +17,7 @@
  
  
  ## PROJECTS
-    1.Portfolio Website
+    1. Portfolio Website
     2. One Page Website
     3. Bootstrap Project
     
@@ -34,5 +34,5 @@
     
  
  
-## FINAL NOTE
+## NOTE
     Any contribution, and comments are welcome in advance!

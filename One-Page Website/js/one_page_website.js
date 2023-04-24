@@ -1,5 +1,5 @@
 
-alert("show me notifications!");
+
 
 function openModal() {
     document.getElementById("myModal").style.display = "block";

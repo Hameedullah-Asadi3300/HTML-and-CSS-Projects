@@ -12,10 +12,11 @@
 	<body>
 					<!--Nav-->
 					<ul>
-					<a href="home" id="link"><li>Home</li>
-					<a href="work" id="link_2"><li>Work</li>
+					<a href="#home" id="link"><li>Home</li>
+					<a href="#work" id="link_2"><li>Projects</li>
 					</ul>
 					<!--End of Nvigation-->
+
 
 
 							<!--Start of Home Page-->
@@ -24,16 +25,17 @@
 							</div>
 							<!--End of Home-->
 			
+							<!--Start of Work page-->
+							<section>
+							<div id="link_2">
+							<h1>Projects</h1>
+							</div>
 
-					<!--Start of Work page-->
-					<section>
-					<div id="link_2">
-					<h1>Work</h1>
-					</div>
+
 
 					<!--Adding a video from youtube-->
 					<div>
-					<p>See What is Front-End Development<p>
+					<p>See What Front-End Development is<p>
 					<iframe width="400" height="300" src="https://www.youtube.com/embed/IXoMDwh4Cq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>	
 					<!--End of Video-->
@@ -71,6 +73,8 @@
 							<!--End of Form-->
 
 
+
+
 					<!--Light Box-->
 
 					<h2 style="text-align:center">Lightbox</h2>
@@ -89,6 +93,7 @@
 					<img src="images/small_4.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 					</div>
 					</div>
+
 
 							<div id="myModal" class="modal">
 							<span class="close cursor" onclick="closeModal()">&times;</span>
@@ -123,16 +128,16 @@
 
 
 					<div class="column">
-					<img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+					<img class="demo cursor" src="images/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(1)" alt="Computer Programming">
 					</div>
 					<div class="column">
-					<img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+					<img class="demo cursor" src="images/thumbnail_4.jpg" style="width:100%" onclick="currentSlide(2)" alt="CSS/Stylesheet">
 					</div>
 					<div class="column">
-					<img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+					<img class="demo cursor" src="images/thumbnail_5.jpg" style="width:100%" onclick="currentSlide(3)" alt="Node.js/JS run environement">
 					</div>
 					<div class="column">
-					<img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+					<img class="demo cursor" src="images/thumbnail_6.jpg" style="width:100%" onclick="currentSlide(4)" alt="HTML">
 					</div>
 					</div>
 					</div>
@@ -150,6 +155,7 @@
 
 
 						<script src="js/one_page_website.js"></script>
+						
 
 	</body>
 </html>
